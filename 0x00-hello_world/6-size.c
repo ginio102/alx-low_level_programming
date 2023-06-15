@@ -13,7 +13,7 @@ int main(void)
 
 printf("Size of a char: 1 byte(s)\n", sizeof(1));
 printf("Size of a int: 4 byte(s)\n", sizeof(4));
-printf("Size of a long int: 4 byte(s)\n", sizeof(4));
+printf("Size of a long int: 4 byte(s)\n", sizeof(8));
 printf("Size of a long long int: 8 byte(s)\n", sizeof(8));
 printf("Size of a float: %lu  byte(s)\n", sizeof(4));
 return (0);
