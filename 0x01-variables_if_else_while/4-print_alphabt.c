@@ -1,4 +1,6 @@
 #include<stdio.h>
+#include<stdlib.h>
+#include<time.h>
 /**
  * main - program that writes the alphabet in lower case
  * Return: 0 (Success)
@@ -7,19 +9,14 @@
 int main(void)
 
 {
-	char n = 97;
+	char low, e, q;
 
-	while (n <= 122)
-	{
-		putchar(n);
-		n++;
-	}
+	e = 'e'
+	q = 'q'
+
+	for (low = 'a'; low = 'z'; low++)
+	if (low != e && low != q)
+	putchar(low)
 	putchar('\n');
-	if (n == 101 || n == 113)
-	{
-		n++;
-		continue;
-	}
-	putchar('\n')
 	return (0);
 }
