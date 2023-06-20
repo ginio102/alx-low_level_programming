@@ -4,7 +4,7 @@
  * main - writes the character c stdout
  * _start : The character to print
  * Return: On Success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * On error, -1 is returned, and errno is set appropriately
 */
 
 int _putchar(char c)
