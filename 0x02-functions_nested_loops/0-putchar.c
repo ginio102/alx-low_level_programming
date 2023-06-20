@@ -1,5 +1,5 @@
 #include<unistd.h>
-
+#include<main.h>
 /**
  * main - writes the character c stdout
  * _start : The character to print
