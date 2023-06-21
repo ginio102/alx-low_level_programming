@@ -1,6 +1,6 @@
 #include"main.h"
 /**
- * _start - function that checks lower cadse characters
+ * _start - function that checks lower case characters
  * Return: 1 (Success) if else return 0
 */
 int _islower(int c)
@@ -10,9 +10,8 @@ int _islower(int c)
 	{
 		return (1);
 	}
-	if else
-	{
+	else
 		return (0);
-	}
+	
 	_putchar('\n');
 }
