@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * -start - program checking for alphabetic character
+ * -isalpha - program checking for alphabetic character
  * Result: show 1 if letter, show0 if otherwise
 */
 int _isalpha(int c)
