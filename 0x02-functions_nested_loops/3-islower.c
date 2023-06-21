@@ -12,7 +12,7 @@ int _islower(int c)
 	}
 	if
 	(
-		return (0);
+		int c (0);
 	)
 	_putchar('\n');
 }
