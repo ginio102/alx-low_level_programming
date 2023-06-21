@@ -2,13 +2,22 @@
 #include<unistd.h>
 #include<stdio.h>
 /**
- * _start - program that prints _putchar and a new line
+ * main - program that prints _putchar and a new line
  * @ c: print character
  * On error, -1 is returned, and errno is set appropriately
  * Return: 0 (Success)
 */
-char _putchar(char; c)
+int main(void)
 
 {
-	return write(1, &c, 1);
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
+		return (0);
 }
