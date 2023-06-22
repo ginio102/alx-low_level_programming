@@ -4,7 +4,7 @@
  * Retrun: 0
  */
 
-int infinite_loop(void)
+int main(void)
 {
 	int i;
 
