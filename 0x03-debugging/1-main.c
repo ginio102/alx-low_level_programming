@@ -1,10 +1,10 @@
 #include<stdio.h>
 /**
- * main - causes an infinite loop
+ * infinite loop - causes an infinite loop
  * Retrun: 0
  */
 
-int main(void)
+int infinite_loop(void)
 {
 	int i;
 
