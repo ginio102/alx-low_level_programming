@@ -1,12 +1,13 @@
 #include"main.h"
 #include<stdio.h>
+#include<stdlib.h>
 /**
  * main - multiplication of two  arguments integers
  * @argc: input counter
  * @argv: input vector
  * Return: 0
  */
-int main(char argc, char argv[])
+int main(int argc, char *argv[])
 {
 	int n1 = 0, n2 = 0;
 
