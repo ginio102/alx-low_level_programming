@@ -2,7 +2,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 /**
- * arfstostr - converts data passed to program string
+ * argstostr - converts data passed to program string
  * @ac: input counter
  * @av: input vector
  * Return: Nothing
