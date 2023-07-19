@@ -7,7 +7,7 @@
  * @argv: array
  * Return: Interger
  */
-int main(int argc, char *argv)
+int main(int argc, char *argv[])
 {
 	int (*oprt)(int, int);
 
