@@ -49,7 +49,7 @@ int op_div(int a, int b)
 /**
  * op_mod - remainder intergers in division
  * @a: input
- * @b: input 
+ * @b: input
  * Return: remainder of intergers
  */
 int op_mod(int a, int b)
