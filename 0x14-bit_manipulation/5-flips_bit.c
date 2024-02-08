@@ -1,23 +1,16 @@
 #include "main.h"
 #include <stdio.h>
 
-/**
- * flip_bits - counts the number of bits to change
- * @n: first integer
- * @m: second integer
- * Return: bits to change
- */
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
-int k, rounder = 0;
-unsigned long int previous;
-unsigned long int ex = n ^ m;
+unsigned int count = 0;
+unsigned long int xor_result = n ^ m;
 
-for (k = 63; k >= 0; k--)
+while (xor_result != 0)
 {
-previous = ex >> k;
-if (previous & 1)
-rounder++;
+count += xor_result & 1;
+
+xor_result >>= 1;
 }
-return (rounder);
+return (count);
 }
